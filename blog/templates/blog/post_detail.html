@@ -17,7 +17,7 @@
                 <div class="text-muted fst-italic mb-2">{{ post.created_at }}</div>
                 <!-- Post categories-->
                 by
-                <a href="#!">{{ post.author }}</a>
+                <a href="#!">{{ post.author | upper }}</a>
             </header>
             <!-- Preview image figure-->
             {% if p.head_image %}
